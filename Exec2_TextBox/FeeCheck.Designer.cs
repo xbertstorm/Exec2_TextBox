@@ -35,6 +35,7 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// textBox1
@@ -100,11 +101,21 @@
 			this.label4.TabIndex = 4;
 			this.label4.Text = "label3";
 			// 
+			// label5
+			// 
+			this.label5.Font = new System.Drawing.Font("Microsoft JhengHei UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.label5.Location = new System.Drawing.Point(82, 252);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(168, 97);
+			this.label5.TabIndex = 5;
+			this.label5.Text = "label5";
+			// 
 			// FeeCheck
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(349, 265);
+			this.ClientSize = new System.Drawing.Size(349, 358);
+			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.button1);
@@ -130,5 +141,6 @@
 		private Button button1;
 		private Label label3;
 		private Label label4;
+		private Label label5;
 	}
 }

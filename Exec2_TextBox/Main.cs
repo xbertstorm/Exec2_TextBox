@@ -31,5 +31,10 @@ namespace Exec2_TextBox
 			FeeCheck set = new FeeCheck();
 			set.Show();
 		}
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
 	}
 }

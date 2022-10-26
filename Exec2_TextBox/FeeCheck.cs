@@ -17,6 +17,7 @@ namespace Exec2_TextBox
 			InitializeComponent();
 			label3.Text = String.Empty;
 			label4.Text = String.Empty;
+			label5.Text = String.Empty;
 			FormBorderStyle = FormBorderStyle.Fixed3D;
 		}
 
@@ -46,7 +47,15 @@ namespace Exec2_TextBox
 
 			PeopleFee(people);
 			CarFee(car);
+			TotalFee(people, car);
 		}
+		private string TotalFee(int people, int car)
+		{
+			int result = (people * 60) + (car * 200);
+
+			return label5.Text = $"總共是{result}元";
+		}
+
 		private int SetNumber1()
 		{
 			TextBox txt = textBox1;
